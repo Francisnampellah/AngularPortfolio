@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.client-card-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
